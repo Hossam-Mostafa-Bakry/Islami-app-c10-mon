@@ -41,5 +41,21 @@ class ApplicationThemeManager {
         color: Colors.white,
       ),
     ),
+    dividerTheme: const DividerThemeData(
+      color: primaryColor,
+      thickness: 1.5,
+    ),
+    textTheme: const TextTheme(
+      titleLarge: TextStyle(
+          fontFamily: "El Messiri", fontWeight: FontWeight.bold, fontSize: 30),
+      bodyLarge: TextStyle(
+          fontFamily: "El Messiri", fontWeight: FontWeight.w600, fontSize: 25),
+      bodyMedium: TextStyle(
+          fontFamily: "El Messiri",
+          fontWeight: FontWeight.normal,
+          fontSize: 25),
+      bodySmall: TextStyle(
+          fontFamily: "El Messiri", fontWeight: FontWeight.w400, fontSize: 20),
+    ),
   );
 }
