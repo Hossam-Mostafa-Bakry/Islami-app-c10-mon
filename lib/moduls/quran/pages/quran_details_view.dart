@@ -5,7 +5,7 @@ import 'package:islami_app_c10_mon/moduls/quran/pages/quran_view.dart';
 class QuranDetailsView extends StatefulWidget {
   static const String routeName = "quranDetails";
 
-  QuranDetailsView({super.key});
+  const QuranDetailsView({super.key});
 
   @override
   State<QuranDetailsView> createState() => _QuranDetailsViewState();
